@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="assets/favicon.ico">
+
+<body>
+  <header class="header">
+    <nav class="nav">
+        <ul class="nav-list gradient nav-underline">
+            <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#code">Code Example</a></li>
+            <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#languages">Languages</a></li>
+        </ul>
+        <div class="container-img">
+            <img src="assets/header-img.jpg" class="container-img" alt="profile-logo">
+        </div>
+        <h1 class="section-subtitle">Artyom Bezukhov</h1>
+        <hr class="hr-line">
+        <h2 class="section-subtitle">Junior Front-end Developer</h2>
+    </nav>
+  </header>
+  <main>
+        <div class="container">
+            <section class="item" id="summary">
+                <h3 class="section-title underline">Summary</h3>
+                <p class="text-style">I graduated from the university in the direction of preparation land-surveyor. After working for five years, I realized that I wanted to create something new and amazing. I communicate well with people in the team. I can show my leadership qualities where they are needed. With great pleasure I receive new knowledge and try to share it with other people.</p>
+            </section>
+
+             <section class="item" id="contacts">
+                <h3 class="section-title underline">Contacts</h3>
+                <ul class="text-style">
+                    <li class="contacts-style"><i class="fa-solid fa-location-dot"></i>Geolocation: <a href="https://www.google.com/maps/place/%D0%9E%D0%BC%D1%81%D0%BA,+%D0%9E%D0%BC%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB./@54.985554,73.0759626,10z/data=!3m1!4b1!4m5!3m4!1s0x43aafde2f601090b:0x5eefc33861a69b1a!8m2!3d54.9913543!4d73.3645105" title="geomarker" class="link-style">Omsk, Russia</a></li>
+                    <li class="contacts-style"><i class="fa-solid fa-envelope"></i>Email: <a href="mailto:muju1ce@icloud.com" title="email" class="link-style">muju1ce@icloud.com</a></li>
+                    <li class="contacts-style"><i class="fa-brands fa-github-alt"></i>GitHub: <a href="https://github.com/muju1ce/rsschool-cv.git" title="github" class="link-style">muju1ce</a></li>
+                    <li class="contacts-style"><i class="fa-brands fa-telegram"></i>Telegram: <a href="https://t.me/bezukhovartem" title="telegramm" class="link-style">@bezukhovartem</a></li>
+                    <li class="contacts-style"><i class="fa-brands fa-discord"></i>Discord: <a href="Muju1ce#4177" title="discord" class="link-style">Muju1ce#4177</a></div>
+                </ul>
+             </section>
+        </div>
+        <div class="container">
+            <section class="item" id="skills">
+                <h3 class="section-title underline">Skills</h3>
+                <ul class="text-style">
+                    <li class="section-item">Web-development: <span>HTML5, CSS, JavaScript.</span></li>
+                    <li class="section-item">Verison control: <span>GIT, GitHub.</span></li>
+                    <li class="section-item">Graphics: <span>Figma.</span></li>
+                 </ul>
+            </section>
+
+            <section class="item" id="code">
+                <h3 class="section-title underline">Code</h3>
+                <pre class="pre"><code>
+                const numbers = [1, 2, 3, 4, 5, 6];
+                let i = 0;
+                let sum = 0;
+            
+                while(i < numbers.lenght) {
+                console.log(sum, numbers[i]);
+                sum = sum + numbers[i];
+                i = i + 1;
+                }
+                console.log(sum);   
+                </code></pre> 
+            </section>
+        </div>
+        <div class="container-three-grid">
+            <section class="item" id="courses">
+                <h3 class="section-title underline">Courses</h3>
+                <ul class="text-style">
+                    <li class="section-item">Hexlet<span>: HTML,CSS for beginner.</span></li>
+                    <li class="section-item">Hexlet<span>: JavaScript for begginer.</span></li>
+                 </ul>
+            </section>
+
+            <section class="item" id="education">
+                <h3 class="section-title underline">Education</h3>
+                <ul class="text-style">
+                    <li class="section-item">Omsk Agrarian University: <span>Land-surveyor.</span></li>
+                </ul>
+            </section>
+
+            <section class="item" id="languages">
+                <h3 class="section-title underline">Languages</h3>
+                <ul class="text-style">
+                    <li class="section-item">English: <span>A2.</span></li> 
+                </ul>
+            </section>
+        </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="background-footer footer-container">
+          <div>© 2023 <a href="https://github.com/muju1ce/rsschool-cv.git" class="github">Muju1ce</a></div>
+          <a href="https://rs.school/js/" class="rss"></a>
+     </footer>
+  <script src="https://kit.fontawesome.com/6526ce64ba.js" crossorigin="anonymous"></script>
+</body>
+</html>
